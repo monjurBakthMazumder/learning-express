@@ -1,0 +1,19 @@
+
+* setup
+1. npm init 
+2. yarn add express
+3. yarn add -D typescript
+4. tsc --init
+5. src > app > app.ts, server.ts
+6. "rootDir": "./src/",    
+7. "outDir": "./dist", 
+8. yarn add -D @types/node
+9. yarn add -D @types/express
+10. tsc
+11. node dist/app/server.js (run server)
+12. tsc -w
+13. yarn add -D nodemon
+14. package.json-
+> "scripts": {
+    "start": "nodemon ./dist/app/server.js",
+    },
